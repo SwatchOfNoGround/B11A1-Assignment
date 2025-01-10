@@ -2,6 +2,28 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #F1F1F3;       /* applying background color for the whole page */
   }
 
-  
+#hero{
+    background-color: #C6E4D6;
+    width: 1024px;
+    height: 448px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#hero .hero-cont1{
+    width: 498px;
+    height: 261;
+}
+
+}
+#hero button{
+    background-color: #006A50;
+    color: #F1F1F3;
+    border: none;
+    border-radius: 10%;
+    
+}
