@@ -26,9 +26,20 @@
     border: none;
     border-radius: 5px;
 }
-#vision-card-cont{
+
+#vision-card-container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+#vision-card-1{
+    background-color: #81B4FC;
+}
+#vision-card-2{
+    background-color: #C6E4D6;
+}
+#vision-card-3{
+    background-color: #F7EBCF;
 }
 #vision-card-cont .card-icon{
     width: 100%;
