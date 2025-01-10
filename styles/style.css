@@ -2,12 +2,13 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #F1F1F3;       /* applying background color for the whole page */
+    background-color: #F1F1F3;
+    /* applying background color for the whole page */
     margin-left: 127px;
     margin-right: 127px;
-  }
+}
 
-#hero{
+#hero {
     background-color: #C6E4D6;
     width: 1024px;
     height: 448px;
@@ -15,37 +16,84 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-    
+
 }
-#hero .hero-cont1{
+
+#hero .hero-cont1 {
     width: 498px;
     height: 261;
 }
-#hero button{
+
+#hero button {
     background-color: #006A50;
     border: none;
     border-radius: 5px;
 }
 
-#vision-card-container{
+#vision-card-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-#vision-card-1{
+
+#vision-card-1 {
     background-color: #81B4FC;
 }
-#vision-card-2{
+
+#vision-card-2 {
     background-color: #C6E4D6;
 }
-#vision-card-3{
+
+#vision-card-3 {
     background-color: #F7EBCF;
 }
-#vision-card-cont .card-icon{
+
+#vision-card-cont .card-icon {
     width: 100%;
     display: block;
 }
-#yunus{
-background-color: #FFFFFF;
-border-radius: 5px;
+
+#yunus {
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.satelite {
+    width: 326;
+    height: 244;
+}
+
+#rm-btn {
+ background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+}
+#taka-container {
+    display: flex;
+    width: 100%;
+}
+
+.btn{
+
+}
+#input1{
+    border: none;
+    border-bottom: 2px solid #0E0E0E;
+}
+#dn-btn{
+    background-color: #006A50;
+    border: none;
+    border-radius: 5px;
+}
+#Subscribe{
+    background-color: #C6E4D6;
+    width: 1024px;
+    height: 316px;
+    margin: 0 auto;
+    flex-direction: row;
+    /* align-content: center; */
+    text-align: center;
 }
