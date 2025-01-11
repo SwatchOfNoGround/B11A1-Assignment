@@ -7,47 +7,82 @@
     margin-left: 127px;
     margin-right: 127px;
 }
-
+/* hero section starts here */
 #hero {
     background-color: #C6E4D6;
-    width: 1024px;
+    width: 85%;
+    /* why is 100% width not working */
     height: 448px;
     margin: 0 auto;
+    padding: 64px 80px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-content: center;
-
+    justify-content: center;
+    /* why is each content are not vertically centred */
 }
 
-#hero .hero-cont1 {
+#hero .hero-item-left {
     width: 498px;
     height: 261;
 }
 
-#hero button {
+#explore-btn {
     background-color: #006A50;
+    width: 216px;
+    height: 45px;
     border: none;
     border-radius: 5px;
+    color: #FFFFFF;
 }
-
+/* hero section ends here */
+/* vision section starts here */
 #vision-card-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    gap: 15px;
 }
 
 #vision-card-1 {
     background-color: #81B4FC;
+    border-radius: 5px;
+    padding: 15px;
 }
-
+#vision-card-1 button{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 5px;
+    width: 97px;
+    height: 33px;
+    color: #FFFFFF;
+}
 #vision-card-2 {
     background-color: #C6E4D6;
+    border-radius: 5px;
+    padding: 15px;
+}
+#vision-card-2 button{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 5px;
+    width: 97px;
+    height: 33px;
+    color: #FFFFFF;
 }
 
 #vision-card-3 {
     background-color: #F7EBCF;
+    border-radius: 5px;
+    padding: 15px;
 }
-
+#vision-card-3 button{
+    background-color: #FFC239;
+    border: none;
+    border-radius: 5px;
+    width: 97px;
+    height: 33px;
+    color: #FFFFFF;
+}
 #vision-card-cont .card-icon {
     width: 100%;
     display: block;
@@ -56,28 +91,57 @@
 #yunus {
     background-color: #FFFFFF;
     background-image: url(../assets/quote-bg.png);
-    background-position: top left;
+    background-position: 15px 0;
     background-repeat: no-repeat;
     border-radius: 5px;
+    padding: 15px 15px 20px 15px;
 }
-
-.satelite {
-    width: 326;
-    height: 244;
+/* vision section ends here */
+/* recent news starts here */
+#satelite-1{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.satelite-image {
+    width: 293px;
+    height: 219px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.satelite-news{
+    padding: 25px;
 }
 
 #rm-btn {
  background-color: #006A50;
     border: none;
     border-radius: 5px;
+    width: 97px;
+    height: 33px;
+    color: #FFFFFF;
 }
-#taka-container {
+#satelite-2{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 15px
+    flex-direction: row-reverse;
+}
+/* recent news ends here */
+/* donate today section starts here */
+#tk-container {
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.btn{
-
+.tk-btn{
+    font-size: 62;
+    cursor: pointer;
+}
+.tk-btn:hover{
+    background-color: lightgreen
 }
 #input1{
     border: none;
@@ -88,6 +152,8 @@
     border: none;
     border-radius: 5px;
 }
+/* donate today section ends here */
+/* subscribe newsletter section starts here */
 #Subscribe{
     background-color: #C6E4D6;
     width: 1024px;
@@ -97,3 +163,8 @@
     /* align-content: center; */
     text-align: center;
 }
+#input+Subscribe{
+    align-items: center;
+    margin: 0;
+}
+/* subscribe newsletter section ends here */
