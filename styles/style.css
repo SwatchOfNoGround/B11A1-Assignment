@@ -39,7 +39,6 @@
 #explore-btn:hover{
     cursor: pointer;
 }
-
 /* hero section ends here */
 /* vision section starts here */
 #vision-card-container {
@@ -97,7 +96,7 @@
     cursor: pointer;
 }
 
-#vision-card-cont .card-icon {
+#vision-card-container .card-icon {
     width: 100%;
     display: block;
 }
@@ -105,8 +104,8 @@
 #yunus {
     background-color: #FFFFFF;
     background-image: url(../assets/quote-bg.png);
-    background-position: 15px 0;
     background-repeat: no-repeat;
+    background-position: 15px 0;
     border-radius: 10px;
     padding: 15px 15px 20px 15px;
 }
@@ -116,13 +115,11 @@
     display: flex;
     background-color: #FFFFFF;
     border-radius: 15px;
-    padding: 30px;
+    padding: 40px;
+    gap: 30px;
 }
 .satelite-image {
     border-radius: 10px;
-}
-.satelite-news{
-    padding-left: 30px;
 }
 
 #satelite-2{
@@ -130,7 +127,8 @@
     flex-direction: row-reverse;
     background-color: #FFFFFF;
     border-radius: 15px;
-    padding: 30px;
+    padding: 40px;
+    gap: 30px;
 }
 
 #rm-btn {
@@ -230,5 +228,6 @@
     color: #FFFFFF;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin: 0;
 }
 /* subscribe newsletter section ends here */
