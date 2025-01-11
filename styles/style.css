@@ -7,20 +7,20 @@
     margin-left: 127px;
     margin-right: 127px;
 }
+.light-dark-text{
+    color: rgb(14, 14, 14, 0.7);
+    font-size: 13px;
+}
 /* hero section starts here */
 #hero {
     background-color: #C6E4D6;
     width: 85%;
-    /* why is 100% width not working */
     height: 448px;
-    margin: 0 auto;
     padding: 64px 80px;
     border-radius: 15px;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    /* why is each content are not vertically centred */
+    justify-content: space-between;
+    align-items: center;
 }
 
 #hero .hero-item-left {
@@ -167,26 +167,29 @@
     background-color: #FFFFFF;
     width: 150px;
     height: 100px;
-    font-size: 92;
     border: none;
     border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
     
 }
 .tk-btn:hover{
     cursor: pointer;
     background-color: rgb(175, 235, 175)
 }
-#other-amount-input{
-    width: 60%;
-    height: 25px;
-    border: none;
-    border-bottom: 1px solid #0E0E0E;
-    text-align: center;
-}
-#amount{
+#other-amount{
     display: flex;
     justify-content: center;
 }
+#other-amount-input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
 #dn-btn{
     background-color: #006A50;
     width: 100px;
