@@ -15,7 +15,7 @@
     height: 448px;
     margin: 0 auto;
     padding: 64px 80px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -36,6 +36,10 @@
     border-radius: 5px;
     color: #FFFFFF;
 }
+#explore-btn:hover{
+    cursor: pointer;
+}
+
 /* hero section ends here */
 /* vision section starts here */
 #vision-card-container {
@@ -45,7 +49,7 @@
 
 #vision-card-1 {
     background-color: #81B4FC;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px;
 }
 #vision-card-1 button{
@@ -56,9 +60,12 @@
     height: 33px;
     color: #FFFFFF;
 }
+#vision-card-1 button:hover{
+    cursor: pointer;
+}
 #vision-card-2 {
     background-color: #C6E4D6;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px;
 }
 #vision-card-2 button{
@@ -69,10 +76,13 @@
     height: 33px;
     color: #FFFFFF;
 }
+#vision-card-2 button:hover{
+    cursor: pointer;
+}
 
 #vision-card-3 {
     background-color: #F7EBCF;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px;
 }
 #vision-card-3 button{
@@ -83,6 +93,10 @@
     height: 33px;
     color: #FFFFFF;
 }
+#vision-card-3 button:hover{
+    cursor: pointer;
+}
+
 #vision-card-cont .card-icon {
     width: 100%;
     display: block;
@@ -93,7 +107,7 @@
     background-image: url(../assets/quote-bg.png);
     background-position: 15px 0;
     background-repeat: no-repeat;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px 15px 20px 15px;
 }
 /* vision section ends here */
@@ -102,15 +116,21 @@
     display: flex;
     background-color: #FFFFFF;
     border-radius: 15px;
+    padding: 30px;
 }
 .satelite-image {
-    width: 293px;
-    height: 219px;
     border-radius: 10px;
-    padding: 25px;
 }
 .satelite-news{
-    padding: 25px;
+    padding-left: 30px;
+}
+
+#satelite-2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
 }
 
 #rm-btn {
@@ -121,14 +141,21 @@
     height: 33px;
     color: #FFFFFF;
 }
+#rm-btn:hover{
+    cursor: pointer;
+
+}
 #satelite-2{
     display: flex;
     background-color: #FFFFFF;
     border-radius: 15px
-    flex-direction: row-reverse;
 }
 /* recent news ends here */
 /* donate today section starts here */
+#donate-today{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #tk-container {
     display: flex;
     width: 100%;
@@ -137,34 +164,68 @@
 }
 
 .tk-btn{
-    font-size: 62;
-    cursor: pointer;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 100px;
+    font-size: 92;
+    border: none;
+    border-radius: 10px;
+    
 }
 .tk-btn:hover{
-    background-color: lightgreen
+    cursor: pointer;
+    background-color: rgb(175, 235, 175)
 }
-#input1{
+#other-amount-input{
+    width: 60%;
+    height: 25px;
     border: none;
-    border-bottom: 2px solid #0E0E0E;
+    border-bottom: 1px solid #0E0E0E;
+    text-align: center;
+}
+#amount{
+    display: flex;
+    justify-content: center;
 }
 #dn-btn{
     background-color: #006A50;
+    width: 100px;
+    height: 45px;
     border: none;
     border-radius: 5px;
+    color:#FFFFFF
+}
+#dn-btn-container{
+    display: flex;
+    justify-content: center;
 }
 /* donate today section ends here */
 /* subscribe newsletter section starts here */
-#Subscribe{
+#subscribe{
     background-color: #C6E4D6;
-    width: 1024px;
-    height: 316px;
-    margin: 0 auto;
-    flex-direction: row;
-    /* align-content: center; */
+    width: 90%;
+    /* why is 100% width not working */
+    height: 200px;
+    border-radius: 15px;
+    padding: 5% 5%;
     text-align: center;
-}
-#input+Subscribe{
     align-items: center;
-    margin: 0;
+}
+#email-subscribe input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#email-subscribe button{
+    width: 100px;
+    height: 30px;
+    background-color: #006A50;
+    border: none;
+    border: #006A50;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 /* subscribe newsletter section ends here */
